@@ -1,0 +1,15 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+  }
+#box1 {
+    position: relative;
+    width : 70%;
+    background-color: green;
+}
+#box2 {
+    position: relative;
+    width: 30%;
+    background-color: royalblue;
+}
